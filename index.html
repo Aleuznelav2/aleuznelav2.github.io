@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AG eSports | Home</title>
+<link href="../AG/global.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+
+<script type='text/javascript'>
+    var startProductBarPos=-1;
+    window.onscroll=function(){
+        var bar = document.getElementById('headerstay');
+        if(startProductBarPos<0)startProductBarPos=findPosY(bar);
+
+        if(pageYOffset>startProductBarPos){
+            bar.style.position='fixed';
+            bar.style.top=0;
+        }else{
+            bar.style.position='relative';
+        }
+
+    };
+
+
+    function findPosY(obj) {
+        var curtop = 0;
+        if (typeof (obj.offsetParent) != 'undefined' && obj.offsetParent) {
+            while (obj.offsetParent) {
+                curtop += obj.offsetTop;
+                obj = obj.offsetParent;
+            }
+            curtop += obj.offsetTop;
+        }
+        else if (obj.y)
+            curtop += obj.y;
+        return curtop;
+    }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $("a").on('click', function(event) {
+		if (this.hash !== "") {
+		  event.preventDefault();
+		  var hash = this.hash;
+		  $('html, body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 400, function(){ //changes speed of the scroll, 800 was the default but seemed too slow
+			window.location.hash = hash;
+		  });
+		} 
+	  });
+	});
+	</script>
+
+</head>
+
+<body>
+<a id="home" class="homeanchor">sf</a>
+<div id="headercontainer">
+
+	<div id="logo">
+    	<img src="images/AGLOGO.png" width="487" height="302" align="center" class="fade"/>
+        <p class="agtitle">ASIAN GINGERS ESPORTS</p>
+		<div id="headerstay" class="headerstay">
+        	<p class="agdesc"><a href="#home" class="header">Home</a> | <a href="#teamsandplayers" class="header">Teams & Players</a> | <a href="#about" class="header">About</a> | <a href="#contact" class="header">Contact</a></p>
+        </div>
+        <p class="agarrow">╲╱</p>
+  </div>
+  
+</div>
+
+<div id="homecontainer">
+	<div id="teamsandplayers">
+    	
+			
+            	<div id="rla">
+                	<center><p>Rocket League</p></center>
+                <a id="teamsandplayers" class="tapanchor">sf</a>
+                	<div id="playerleft">
+                    	<p>Aleuz</p>
+                        <center><img src="images/aleuz_profilepic.png" width="275" height="274" /></center>
+                    </div>
+                    <div id="playermiddle">
+                    	<p>GingerJustice</p>
+                        <center><img src="images/gjg_profilepic.png" width="275" height="274"/></center>
+                    </div>
+                  <div id="playerright">
+               		<p>TSO</p>
+                   	 	<center><img src="images/tso_profilepic.png" width="275" height="274" /></center>
+						</div>
+                </div>
+				<div id="pubg">
+                	<center><p>PUBG</p></center>
+                    <div id="playerleft">
+                            <p>James8664</p>
+                            <center><img src="images/james_profilepic.jpg" width="275" height="274" /></center>
+                        </div>
+                        <div id="playermiddle">
+                            <p>Emanc6</p>
+                            <center><img src="images/eman_profilepic.jpg" width="275" height="274"/></center>
+                        </div>
+                      <div id="playerright">
+                        <p>Laettner</p>
+                            <center><img src="images/unknown_profilepic.jpg" width="275" height="274" /></center>
+                        </div>
+                </div>
+                <div id="cr">
+                	<center><p>Clash Royale</p></center>
+                    <div id="twoplayerleft">
+                            <p>GingerJustice</p>
+                            <center><img src="images/gjg_profilepic.png" width="275" height="274" /></center>
+                        </div>
+                        <div id="twoplayerright">
+                        	<p>Masco31</p>
+                            <center><img src="images/unknown_profilepic.jpg" width="275" height="274" /></center>
+                        </div>
+                </div>
+                <div id="brawlhalla">
+                	<center><p>Brawlhalla</p></center>
+                    <div id="twoplayerleft">
+                            <p>Aleuz</p>
+                            <center><img src="images/aleuz_profilepic.png" width="275" height="274" /></center>
+                        </div>
+                        <div id="twoplayerright">
+                        	<p>Goody</p>
+                            <center><img src="images/goody_profilepic.jpg" width="275" height="274" /></center>
+                        </div>
+                </div>
+           
+    	
+
+    </div>
+    <div id="about">
+    	<a id="teamsandplayers" class="tapanchor">sf</a>
+    </div>
+    <div id="contact">
+    	<a id="teamsandplayers" class="tapanchor">sf</a>
+    </div>
+  </div>
+</body>
+</html>
