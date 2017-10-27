@@ -323,7 +323,7 @@ a.header:active {
 }
 
 .button {
-    background-color: #006; /* Green */
+    background-color: black; /* Green */
     border: none;
     color: white;
     padding: 8px 16px;
@@ -336,18 +336,32 @@ a.header:active {
     transition-duration: 0.4s;
     cursor: pointer;
 	font-family: 'Pontano Sans', sans-serif;
+	border-radius: 15px;
+	text-decoration: none;
 }
 
 .rlbutton {
-    background-color: #00C; 
+    background-color: ghostwhite; 
     color: black; 
 	font-family: 'Pontano Sans', sans-serif;
+	border-radius: 15px;
 }
 
 .rlbutton:hover {
-    background-color: #00C;
+    background-color: darkgray;
     color: white;
 	font-family: 'Pontano Sans', sans-serif;
+	border-radius: 15px;
+}
+
+.button:active {
+  background-color: black;
+  transform: translateY(5px);
+  transition-duration: 0.1s;
+}
+
+.button:focus {
+	outline: 0;
 }
 
 #battelog{
