@@ -144,7 +144,9 @@ a.header:active {
 	height: 600px;
 	width: auto;
 	background-color: #6F6F6F;
-	background-image: url(images/rla_back.png);
+	background: url(images/rla_back.png) no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	margin: auto;
 	font-family: 'Baloo Bhai', cursive;
@@ -161,13 +163,12 @@ a.header:active {
 
 
 
+
 #playerleft{
 	height: 400px;
-	width: 400px;
-	background-color: #000;
+	width: 33%;
+
 	float: left;
-	margin-left: 10%;
-	margin-right: 6.5%;
 	display: inline-block;
 	border-radius: 50%;
 	font-family: 'Baloo Bhai', cursive;
@@ -179,10 +180,8 @@ a.header:active {
 
 #playermiddle{
 	height: 400px;
-	width: 400px;
-	background-color: #000;
+	width: 33%;
 	float: left;
-	margin-right: 6.5%;
 	display: inline-block;
 	border-radius: 50%;
 	font-family: 'Baloo Bhai', cursive;
@@ -193,13 +192,12 @@ a.header:active {
 
 #playerright{
 	height: 400px;
-	width: 400px;
+	width: 33%;
 	float: left;
 	border-radius: 50%;
 	font-family: 'Baloo Bhai', cursive;
 	font-size: 30px;
 	text-align: center;
-	background-color: #000;
 	color: white;
 	display: inline-block;
 }
@@ -209,7 +207,9 @@ a.header:active {
 	height: 600px;
 	width: auto;
 	background-color: #6F6F6F;
-	background-image: url(images/pubg_back.png);
+	background: url(images/pubg_back.png) no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	margin: auto;
 	font-family: 'Baloo Bhai', cursive;
@@ -231,9 +231,11 @@ a.header:active {
 
 #cr{
 	height: 600px;
-	width: AUTO;
+	width: auto;
 	background-color: #6F6F6F;
-	background-image: url(images/cr_back.png);
+	background: url(images/cr_back.png) no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	margin: auto;
 	font-family: 'Baloo Bhai', cursive;
@@ -246,14 +248,17 @@ a.header:active {
 	border-bottom-color: #333;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	background-position:  0px -300px;
+	background-position:  0px;
+
 }
 
 #brawlhalla{
 	height: 600px;
 	width: auto;
 	background-color: #6F6F6F;
-	background-image: url(images/brawl_back.png);
+	background: url(images/brawl_back.png) no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	margin: auto;
 	font-family: 'Baloo Bhai', cursive;
@@ -266,16 +271,13 @@ a.header:active {
 	border-bottom-color: #333;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	background-position:  0px -300px;
+	background-position:  0px;
 }
 
 #twoplayerleft{
 	height: 400px;
-	width: 400px;
-	background-color: #000;
+	width: 50%;
 	float: left;
-	margin-left: 23%;
-	margin-right: 10%;
 	border-radius: 50%;
 	font-family: 'Baloo Bhai', cursive;
 	font-size: 30px;
@@ -285,13 +287,12 @@ a.header:active {
 
 #twoplayerright{
 	height: 400px;
-	width: 400px;
+	width: 50%;
 	float: left;
 	border-radius: 50%;
 	font-family: 'Baloo Bhai', cursive;
 	font-size: 30px;
 	text-align: center;
-	background-color:#000;
 	color: white;
 }
 
