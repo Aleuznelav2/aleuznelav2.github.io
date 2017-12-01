@@ -11,11 +11,9 @@ function doFirst(){
 	barSize=630;
 	myMovie=document.getElementById('myMovie');
 	playButton=document.getElementById('playButton');
-	restart-document.getElementById('restartButton')
 	bar=document.getElementById('defaultBar');
 	progressBar=document.getElementById('progressBar');
 	playButton.addEventListener('click', playOrPause, false);
-	restart.addEventListener('click', restart, false);
 	bar.addEventListener('click', clickedBar, false);
 	
 	
