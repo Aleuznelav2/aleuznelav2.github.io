@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    overflow-x: hidden;  
+}
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+
+#myInput{
+	width: 500px;
+	height: 40px;
+	font-size: 18px;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#textbox{
+	margin: auto;
+	width: 300px;
+	height: 50px;
+}
+
+#headerback{
+	width: 100%;
+	height: 200px;
+	background: yellow;
+	-webkit-animation: colorswitch 5s infinite;
+	-webkit-transition: animation 5s;
+}
+
+@-webkit-keyframes colorswitch {
+	0%{
+		top: 0px; 
+		left: 0px; 
+		background: #FFFFCC;
+	}
+    25%{
+		top: 0px; 
+		left: 0px; 
+		background: #FFFF66;
+	}
+	50%{
+		top: 0px; 
+		left: 0px; 
+		background: #FFFF00;
+	}
+	90%{
+		top: 0px;
+		left: 0px;
+		background: #FFFF99
+	}
+	100%{
+		top: 0px; 
+		left: 0px; 
+		background: #FFFFCC;
+	}
+}
+
+#headertext{
+	font-size: 40px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	-webkit-transform: scale(1,1);
+	-webkit-transition: -webkit-transform 0.5s, 0.5s;
+	padding-top: 30px;
+}
+
+#nav{
+	width: 90%;
+	background: -webkit-linear-gradient(180deg, white 0%, lightgray 30%, lightgray 70%, white 100%);
+	height: 80px;
+	font-size: 20px;
+	margin: auto;
+	font-family: 'McLaren', cursive;
+}
+
+#ulnav a:link{
+	color: black;
+}
+
+#ulnav a:visited{
+	color: black;
+	text-decoration: underline;
+}
+	
+#ulnav a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+#ulnav a:active{
+	color: black;
+	text-decoration: underline;
+}
+#ulnav li{
+	display: inline-block;
+	list-style: none;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;	
+}
+
+li.boi{
+	margin-left: -36px;
+}
+
+#ulnav{
+	list-style: none;
+}
+
+.dropdown{
+	list-style: none;
+}
+
+#main{
+	font-size: 30px;
+	margin: auto;
+	width: 95%; 
+	height: 3000px;	
+	background: lightgray;
+}
+
+#food{
+	width: 800px;
+	height: 600px;
+	background: lightgray;
+	border: 1px black solid;
+}
+
+#myUL li{
+	list-style: none;
+	margin: auto;
+}
+#headertext:hover{
+	-webkit-transform: scale(1.5,1.5);
+	-webkit-transition: -webkit-transform 0.5s, 0.5s;
+	
+}
+
+#recipe{
+	padding: 50px;
+	background: ;
+	width: 800px;
+	height: 500px;
+	float: left;
+	font-family: 'McLaren', cursive;
+}
+
+#movie{
+		-webkit-transform: scale(1,1);
+	-webkit-transition: transform 1s;
+}
+
+#movie:hover{
+		-webkit-transform: scale(1.1,1.1);
+	-webkit-transition: transform 1s;
+}
+
+#movie p{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#reciperight{
+	padding: 50px;
+	background: ;
+	width: 800px;
+	height: 500px;
+	float: left;
+	font-family: 'McLaren', cursive;
+}
+
+#movie{
+		width: 720px;
+		margin: 10px auto;
+		padding:  5px;
+		padding-bottom: 20px;
+		background: silver;
+		border: 4px solid black;
+		border-radius: 10px;
+	}
+
+
+	#buttons{
+	float: left;
+	width: 70px;
+	height: 22px;
+
+	}
+#playButton{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+#playButton:hover{
+	background: #D1E446;
+}
+#playButton1:hover{
+	background: #D1E446;
+}
+
+#playButton1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton1:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+#playButton2:hover{
+	background: #D1E446;
+}
+
+#playButton2{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton2:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+#playButton3:hover{
+	background: #D1E446;
+}
+
+#playButton3{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton3:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+#playButton4:hover{
+	background: #D1E446;
+}
+
+#playButton4{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton4:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+#playButton5:hover{
+	background: #D1E446;
+}
+
+#playButton5{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton5:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+
+#playButton6:hover{
+	background: #D1E446;
+}
+
+#playButton6{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton6:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+#playButton7:hover{
+	background: #D1E446;
+}
+
+#playButton7{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton7:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+#playButton8:hover{
+	background: #D1E446;
+}
+
+#playButton8{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton8:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
+
+#playButton9:hover{
+	background: #D1E446;
+}
+
+#playButton9{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	background: yellow;
+	border: 2px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: bolder;
+	width: 720px;
+}
+
+#playButton9:active{
+	-webkit-transform: scale(0.95,0.95);
+	background: #D1E446;
+}
