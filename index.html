@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,6 +7,8 @@
 <link href="global.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="images/aglogo.png
+"/>
 <script type='text/javascript'>
     var startProductBarPos=-1;
     window.onscroll=function(){
@@ -52,29 +55,28 @@
 	  });
 	});
 	</script>
-
 </head>
 
-<body>
-<a id="home" class="homeanchor">sf</a>
+ <body>
+<a id="home" class="homeanchor">Anchor</a>
+
 <div id="headercontainer">
 	<div id="logo">
     	<img src="images/AGLOGO.png" width="487" height="302" align="center" class="fade"/>
         <p class="agtitle">ASIAN GINGERS ESPORTS</p>
 		<div id="headerstay" class="headerstay">
-        	<p class="agdesc"><a href="#home" class="header">Home</a> | <a href="#teamsandplayers" class="header">Teams & Players</a> | <a href="#about" class="header">About</a> | <a href="#contact" class="header">Contact</a></p>
-        </div>
-        <p class="agarrow">╲╱</p>
-	</div> 
-</div>
+	<p class="agdesc"><a href="index.php#home" class="header">Home</a> | <a href="index.php#teamsandplayers" class="header">Teams & Players</a> | <a href="index.php#about" class="header">About</a> | <a href="index.php#contact" class="header">Contact</a></p>
+</div>        <p class="agarrow">╲╱</p>
+</div> </div>
 
 <div id="homecontainer">
-  <a id="teamsandplayers" class="tapanchor">sf</a>
+	<a id="teamsandplayers" class="tapanchor">sf</a>
    <div id="teamsandplayers">
 	  	<div id="tapheader">
-       		<center><p>Teams & Players</p></center>
+       		<center><p class="tpheader">Teams & Players</p></center>
 	    </div>
-   	 	<div id="rla">
+
+       	<div id="rla">
         	<center><p>Rocket League</p></center>
             <div id="playerleft">
             	<p>Aleuz</p>
@@ -89,7 +91,9 @@
                 <center><img src="images/tso_profilepic.png" width="275" height="274" /></center>
 			</div>
 			<div id="battlelog">
-            	<button class="button rlbutton">Battle Log</button>
+            	<form action="rlbattlelog.php">
+            		<button class="button rlbutton">Battle Log</button>
+				</form>
             </div>		
 		</div>
 		<div id="pubg">
@@ -117,9 +121,11 @@
                  <p>Masco31</p>
                  <center><img src="images/unknown_profilepic.jpg" width="275" height="274" /></center>
             </div>
-	    <div id="battlelog">
-            	<button class="button rlbutton">Battle Log</button>
-            </div>	
+			<div id="battlelog">
+				<form action="crbattlelog.php">
+					<button class="button rlbutton">Battle Log</button>
+				</form>
+			</div>	
         </div>
         <div id="brawlhalla">
             <center><p>Brawlhalla</p></center>
@@ -134,20 +140,63 @@
                 </div>
            
     	</div>
-
-    </div>
+</div>   
 </div>
-    <div id="about">
-    	<a id="teamsandplayers" class="tapanchor">sf</a>
-        <div id="tapheader">
-       		<center><p>About</p></center>
+   
+<div id="about">
+    <a id="teamsandplayers" class="tapanchor">sf</a>
+	<div id="aboutheader">
+    	<center><p class="aboutheader"><span class="headerhilite">&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;</span></p></center>
+	</div>
+       	<div id="aboutcontent">
+        	<p class="aboutcontentheader">Who We Are</p>
+            <p class="aboutcontent">We are a group of highschoolers from the same district that enjoy
+            competitive gaming. AG eSports was founded in January 2016 by GingerJustice and Aleuz as a Clash Royale team, 
+            and eventually expanded to other games in 2017. <br /><br />
+            Our mission is to the become the best (obviously) and prove that young esports
+            organizations can be successful. </p>
+    	</div>
+    	</div>
+   
+<div id="contact">
+		<a id="teamsandplayers" class="tapanchor">sf</a>
+        <div id="contactheader">
+       		<center><p class="aboutheader"><span class="headerhilite">&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;</span></p></center>
 	    </div>
-        <div id="aboutcontent">
-        	<p class="aboutheader"></p>
-    </div>
-    <div id="contact">
-    	<a id="teamsandplayers" class="tapanchor">sf</a>
-    </div>
-  </div>
+        <div id="contacttable">
+			<table width="1300" border="0">
+			  <tr>
+				<th class="acol1"><a href="https://www.twitch.tv/ginger_justice" target="_blank"><img src="images/twitch.png" width="160" height="167" /></a></th>
+				<th class="acol2"><a href="https://www.twitch.tv/ginger_justice" target="_blank"><p class="contactheader">Ginger_Justice</p></a></th>
+			  </tr>
+			  <tr>
+				<th class="acol1"><a href="mailto:gingerjusticegaming@gmail.com" target="_blank"><img src="images/email.png" width="226" height="165" /></a></th>
+				<th class="acol2"><a href="mailto:gingerjusticegaming@gmail.com" target="_blank"><p class="contactheader">gingerjusticegaming@gmail.com</p></a></th>
+			  </tr>
+			  <tr>
+				<th class="acol1"><a href="https://www.youtube.com/channel/UCbT0gSN_FxmDMddSQDecK8A" target="_blank"><img src="images/youtube.png" width="232" height="165" /></a></th>
+				<th class="acol2"><a href="https://www.youtube.com/channel/UCbT0gSN_FxmDMddSQDecK8A" target="_blank"><p class="contactheader">Ginger Justice Gaming<p></th></a>
+			  </tr>
+			</table>
+        </div>
+	    
+	    <br><Br><Br><br>
+  		<div id="contacttable">
+			<table width="1300" border="0">
+			  <tr>
+				<th class="aacol1"><a href="https://www.twitch.tv/aleuznelav2" target="_blank"><img src="images/twitch.png" width="160" height="167" /></a></th>
+				<th class="aacol2"><a href="https://www.twitch.tv/aleuznelav2" target="_blank"><p class="contactheader">Aleuznelav2</p></a></th>
+			  </tr>
+			  <tr>
+				<th class="aacol1"><a href="mailto:aleuznelavyt@gmail.com" target="_blank"><img src="images/email.png" width="226" height="165" /></a></td>
+				<th class="aacol2"><a href="mailto:aleuznelavyt@gmail.com" target="_blank"><p class="contactheader">aleuznelavyt@gmail.com</p></a></td>
+			  </tr>
+			  <tr>
+				<th class="aacol1"><a href="https://www.youtube.com/user/AleuzTech" target="_blank"><img src="images/youtube.png" width="232" height="165" /></a></td>
+				<th class="aacol2"><a href="https://www.youtube.com/user/AleuzTech" target="_blank"><p class="contactheader">Aleuz<p></a></td>
+			  </tr>
+			</table>
+        </div></div>
+  
 </body>
 </html>
