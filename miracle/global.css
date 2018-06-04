@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: white;
+}
+
+#container{
+	width: auto;
+	height: 1080px;
+	background: url("images/miracle on ice_dark.jpg") no-repeat center center fixed;
+}
+
+#header{
+	height: 175px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+	z-index: 9;
+}
+
+p.header-title{
+	margin-top: 0px;
+	padding-top: 20px;
+	color: white;
+	font-size: 70px;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+
+p.menu-bar-text{
+	color: white;
+	text-align: center;
+	font-family: 'Arimo', sans-serif;
+	letter-spacing: 2px;
+	margin-top: -45px;
+	font-weight: bolder;
+}
+
+a.header-link{
+	color: white;
+	text-decoration: none;
+}
+
+a.header-link:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+span.selected-page{
+	color: lightcoral;
+}
+
+#main{
+	
+}
+
+#annoyingdivthatineedsothepagedoesntbreak{
+	position: absolute;
+	top: 175px;
+	height: 200px;
+	width: 100%;
+}
+
+#main-content{
+	width: 1310px;
+	height: 790px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: rgba(0,0,0,0.6);
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 20px;
+}
+
+#main-text{
+	width: 600px;
+	float: left;
+	padding-left: 50px;
+	line-height: 30px;
+	margin-top: 5px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+p.main-text-title{
+	font-weight: bolder;
+	font-size: 40px;
+	line-height: 45px;
+	margin-top: 20px;
+}
+#main-image{
+	width: auto;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+table.character_table{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+#main-content table{
+	border: 1px solid rgba(0,0,0,0);
+}
+
+#main-content th, td{
+	border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+
+td.col1{
+	width: 100px;
+	background-color: green;
+}
+
+td.col2{
+	width: 125px;
+}
+
+td.col3{
+	width: 50px;
+}
+
+td.col4{
+	text-align: left;
+	padding-left: 20px;
+	line-height: 100%;
+}
+
+
+td.col4small{
+	text-align: left;
+	padding-left: 20px;
+	line-height: 100%;
+	font-size: 40px;
+}
+
+td.col5{
+	float: right;
+	padding-right: 10px;
+	padding-top: 10px;
+	width: 120px;
+}
+
+td.col5 img{
+	text-align: center;
+}
+
+tr{
+	height: 100px;
+	table-layout: fixed;
+}
+
+span.ahahahaha{
+	color: rgba(0,0,0,0);
+}
