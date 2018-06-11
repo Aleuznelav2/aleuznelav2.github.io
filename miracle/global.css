@@ -9,6 +9,10 @@ body{
 	color: white;
 }
 
+body.intent{
+	height: 1200px;
+}
+
 #container{
 	width: auto;
 	height: 1080px;
@@ -30,6 +34,12 @@ body{
 #container-citations{
 	width: auto;
 	height: 1700px;
+	background: url("images/miracle on ice_dark.jpg") no-repeat center center fixed;
+}
+
+#container-intent{
+	width: auto;
+	height: 1200px;
 	background: url("images/miracle on ice_dark.jpg") no-repeat center center fixed;
 }
 
