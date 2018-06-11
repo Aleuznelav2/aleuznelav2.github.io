@@ -15,6 +15,18 @@ body{
 	background: url("images/miracle on ice_dark.jpg") no-repeat center center fixed;
 }
 
+#container-i-impact{
+	width: auto;
+	height: 1500px;
+	background: url("images/miracle on ice_dark.jpg") no-repeat center center fixed;
+}
+
+#container-index{
+	width: auto;
+	height: 1500px;
+	background: url("images/miracle on ice_dark.jpg") no-repeat center center fixed;
+}
+
 #header{
 	height: 175px;
 	width: 100%;
@@ -76,13 +88,51 @@ span.selected-page{
 	border-radius: 20px;
 }
 
+#main-content-intent{
+	width: 1310px;
+	height: 900px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: rgba(0,0,0,0.6);
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 20px;
+}
+
+#main-content-i-impact{
+	width: 1310px;
+	height: 1250px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: rgba(0,0,0,0.6);
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 20px;
+}
+
+#main-content-index{
+	width: 1310px;
+	height: 1250px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: rgba(0,0,0,0.6);
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 20px;
+}
+
 #main-text{
 	width: 600px;
 	float: left;
 	padding-left: 50px;
 	line-height: 30px;
 	margin-top: 5px;
-	text-align: justify;
+	font-size: 18px;
+}
+
+#main-text-intent{
+	width: auto;
+	float: left;
+	padding-left: 50px;
+	line-height: 30px;
+	margin-top: 5px;
 	font-size: 18px;
 }
 
@@ -92,12 +142,19 @@ p.main-text-title{
 	line-height: 45px;
 	margin-top: 20px;
 }
+
+p.main-text-justify{
+	text-align: justify;
+}
+
 #main-image{
 	width: auto;
 	float: left;
 	margin-left: 50px;
 	margin-top: 20px;
 }
+
+
 
 table.character_table{
 	text-align: center;
