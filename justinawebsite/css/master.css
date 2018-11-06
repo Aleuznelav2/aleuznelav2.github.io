@@ -1,0 +1,184 @@
+html {
+    font-family: 'Karla', sans-serif;
+    overflow: scroll;
+}
+
+body {
+	height: calc(100vh - 8em);
+	padding: 4em;
+	color: rg;
+}
+
+.prof-box {
+	width: 90px;
+	height: 20%;
+	border-radius: 35px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: auto;
+	width: 30%;
+	margin-top: 120px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.prof-pic {
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+}
+
+.name {
+	font-weight: 50;
+    font-size: 40;
+    letter-spacing: 5;
+}
+
+.des {
+	font-weight: 400;
+}
+
+.des2 {
+	font-weight: 200;
+    letter-spacing: 1;
+}
+
+li {
+	list-style: none;
+	margin: 5px 15px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 10px;
+	color: #fff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000;
+}
+.navbar {
+	width: 100%;
+	height: 20%;
+	border-radius: 20px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	top: 0px;
+}
+
+#navbar{
+	z-index: 9999;	
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	left: 0px;
+	right: 0px;
+	height: 20px;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	animation: animatenav 15s ease infinite;
+}
+
+@keyframes animatenav{
+			0%{
+				background-position: 0% 50%;
+			}
+			50%{					
+				background-position: 100% 50%;
+			}
+			100%{
+				background-position: 0% 50%;
+			}
+		}
+		
+.navbartext{
+	color: white;
+	margin-right: 20px;
+	
+}
+
+a.tapanchor{
+	position: relative;
+	font-size: 0px;
+}
+
+a.navbartext:link {
+    color: white;
+	text-decoration: none;
+}
+
+a.navbartext:visited {
+    color: white;
+	text-decoration: none;
+}
+
+a.navbartext:hover {
+    color: white;
+	text-decoration: none;
+}
+
+a.navbartext:active {
+    color: white;
+	text-decoration: none;
+}
+
+.academics {
+	width: 50%;
+	height: 20%;
+	border-radius: 20px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: auto;
+	text-align: left;
+	margin-bottom: 100px;
+}
+
+.activities {
+	width: 50%;
+	height: 20%;
+	border-radius: 20px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: auto;
+	text-align: left;
+	border-top: 100px;
+	margin-bottom: 100px;
+}
+
+.experience {
+	width: 50%;
+	height: 20%;
+	border-radius: 20px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: auto;
+	text-align: left;
+	border-top: 100px;
+	margin-bottom: 100px;
+}
+
+.skills {
+	width: 50%;
+	height: 20%;
+	border-radius: 20px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: auto;
+	text-align: left;
+	border-top: 100px;
+	margin-bottom: 100px;
+}
+
+h1 {
+	letter-spacing: 3px;
+}
+
+h2 {
+	letter-spacing: 5px;
+}
